@@ -39,7 +39,7 @@ export default function Layout({
                 src={`${emailConfig.baseUrl}/icon.png`}
                 width="24"
                 height="24"
-                alt="Cali"
+                alt="fielding"
                 className="mx-auto my-0"
               />
               <Text className="text-center">
@@ -47,10 +47,10 @@ export default function Layout({
                   href="https://zhangbaolin.cn"
                   className="text-zinc-700 underline"
                 >
-                  <strong>Cali Castle</strong>
+                  <strong>fielding</strong>
                 </Link>
                 <br />
-                开发者、设计师、细节控、创始人
+                开发者
               </Text>
               <Text className="text-center">
                 <Link

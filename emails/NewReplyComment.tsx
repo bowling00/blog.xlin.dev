@@ -9,8 +9,8 @@ const NewReplyCommentEmail = ({
   postLink = 'https://zhangbaolin.cn',
   postTitle = '测试文章 Lorem ipsum dolor sit amet, consectetur adipisicing elit',
   postImageUrl = 'https://cn.zolplay.com/api/og?title=测试文章',
-  userFirstName = 'Cali',
-  userLastName = 'Castle',
+  userFirstName = 'fielding',
+  userLastName = 'zhang',
   userImageUrl = 'https://zhangbaolin.cn/icon.png',
   commentContent = '*测试评论*\n- Wow wtf\n- Cool',
 }: {

@@ -3,7 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 
 import { CursorClickIcon, UsersIcon } from '~/assets'
-import { PeekabooLink } from '~/components/links/PeekabooLink'
+// import { PeekabooLink } from '~/components/links/PeekabooLink'
 import { Container } from '~/components/ui/Container'
 import { kvKeys } from '~/config/kv'
 import { navigationItems } from '~/config/nav'
@@ -119,15 +119,15 @@ export async function Footer() {
                 }
               />
             </div>
-            <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
+            {/* <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
               <p className="text-sm text-zinc-500/80 dark:text-zinc-400/80">
-                &copy; {new Date().getFullYear()} Cali Castle. 网站已开源：
+                &copy; {new Date().getFullYear()} fielding zhang. 网站已开源：
                 <PeekabooLink href="https://github.com/CaliCastle/zhangbaolin.cn">
                   GitHub
                 </PeekabooLink>
               </p>
               <Links />
-            </div>
+            </div> */}
           </Container.Inner>
           <Container.Inner className="mt-6">
             <div className="flex flex-col items-center justify-start gap-2 sm:flex-row">
