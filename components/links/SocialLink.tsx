@@ -10,9 +10,7 @@ import {
   GitHubIcon,
   type IconProps,
   MailIcon,
-  TelegramIcon,
   TwitterIcon,
-  YouTubeIcon,
 } from '~/assets'
 import { Tooltip } from '~/components/ui/Tooltip'
 
@@ -32,25 +30,15 @@ type PlatformInfo = {
 }
 const iconMapper: { [key: string]: PlatformInfo } = {
   '(?:github.com)': { icon: GitHubIcon, platform: 'github', label: 'GitHub' },
-  '((?:t.co)|(?:twitter.com))': {
-    icon: TwitterIcon,
-    platform: 'twitter',
-    label: 'Twitter',
-  },
-  '((?:youtu.be)|(?:youtube.com))': {
-    icon: YouTubeIcon,
-    platform: 'youtube',
-    label: 'YouTube',
-  },
-  '((?:t.me)|(?:telegram.com))': {
-    icon: TelegramIcon,
-    platform: 'telegram',
-    label: 'Telegram',
-  },
   '(?:bilibili.com)': {
     icon: BilibiliIcon,
     platform: 'bilibili',
     label: '哔哩哔哩',
+  },
+  '((?:t.co)|(?:twitter.com))': {
+    icon: TwitterIcon,
+    platform: 'twitter',
+    label: 'Twitter',
   },
   '(?:mailto:)': { icon: MailIcon, platform: 'mail', label: '邮箱地址' },
   '(?:feed.xml)': { icon: AtomIcon, platform: 'rss', label: 'RSS 订阅' },

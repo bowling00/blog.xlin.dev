@@ -54,13 +54,6 @@ export default function Layout({
               </Text>
               <Text className="text-center">
                 <Link
-                  href="https://xlin.dev/twitter"
-                  className="text-xs text-zinc-600 underline"
-                >
-                  Twitter
-                </Link>{' '}
-                |&nbsp;
-                <Link
                   href="https://xlin.dev/github"
                   className="text-xs text-zinc-600 underline"
                 >
@@ -73,6 +66,13 @@ export default function Layout({
                 >
                   哔哩哔哩
                 </Link>
+                |&nbsp;
+                <Link
+                  href="https://xlin.dev/twitter"
+                  className="text-xs text-zinc-600 underline"
+                >
+                  Twitter
+                </Link>{' '}
               </Text>
             </Section>
           </Container>
