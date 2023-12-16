@@ -2,7 +2,7 @@ import Image, { type StaticImageData } from 'next/image'
 import React from 'react'
 
 import { BriefcaseIcon } from '~/assets'
-import jsdesignLogo from '~/assets/company/jsdesign.png'
+import jsdesignLogo from '~/assets/company/jsdesign.ico'
 
 type Resume = {
   company: string
