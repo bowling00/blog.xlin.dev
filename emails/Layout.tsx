@@ -44,7 +44,7 @@ export default function Layout({
               />
               <Text className="text-center">
                 <Link
-                  href="https://zhangbaolin.cn"
+                  href="https://xlin.dev"
                   className="text-zinc-700 underline"
                 >
                   <strong>fielding</strong>
@@ -54,28 +54,28 @@ export default function Layout({
               </Text>
               <Text className="text-center">
                 <Link
-                  href="https://zhangbaolin.cn/twitter"
+                  href="https://xlin.dev/twitter"
                   className="text-xs text-zinc-600 underline"
                 >
                   Twitter
                 </Link>{' '}
                 |&nbsp;
                 <Link
-                  href="https://zhangbaolin.cn/youtube"
+                  href="https://xlin.dev/youtube"
                   className="text-xs text-zinc-600 underline"
                 >
                   YouTube
                 </Link>{' '}
                 |&nbsp;
                 <Link
-                  href="https://zhangbaolin.cn/github"
+                  href="https://xlin.dev/github"
                   className="text-xs text-zinc-600 underline"
                 >
                   GitHub
                 </Link>{' '}
                 |&nbsp;
                 <Link
-                  href="https://zhangbaolin.cn/bilibili"
+                  href="https://xlin.dev/bilibili"
                   className="text-xs text-zinc-600 underline"
                 >
                   哔哩哔哩

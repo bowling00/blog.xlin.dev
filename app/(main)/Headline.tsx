@@ -95,33 +95,33 @@ export function Headline() {
         }}
       >
         <SocialLink
-          href="https://zhangbaolin.cn/twitter"
+          href="https://xlin.dev/twitter"
           aria-label="我的推特"
           platform="twitter"
         />
         <SocialLink
-          href="https://zhangbaolin.cn/youtube"
+          href="https://xlin.dev/youtube"
           aria-label="我的 YouTube"
           platform="youtube"
         />
         <SocialLink
-          href="https://zhangbaolin.cn/bilibili"
+          href="https://xlin.dev/bilibili"
           aria-label="我的 Bilibili"
           platform="bilibili"
         />
         <SocialLink
-          href="https://zhangbaolin.cn/github"
+          href="https://xlin.dev/github"
           aria-label="我的 GitHub"
           platform="github"
         />
         <SocialLink
-          href="https://zhangbaolin.cn/tg"
+          href="https://xlin.dev/tg"
           aria-label="我的 Telegram"
           platform="telegram"
         />
         <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
         <SocialLink
-          href="mailto:hi@zhangbaolin.cn"
+          href="mailto:hi@xlin.dev"
           aria-label="我的邮箱"
           platform="mail"
         />

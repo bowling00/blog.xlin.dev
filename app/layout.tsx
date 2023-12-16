@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     siteName: 'fielding zhang',
     locale: 'zh_CN',
     type: 'website',
-    url: 'https://zhangbaolin.cn',
+    url: 'https://xlin.dev',
   },
   twitter: {
     site: '@thefieldingzhang',

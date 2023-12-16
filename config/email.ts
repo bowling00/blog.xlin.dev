@@ -1,7 +1,7 @@
 export const emailConfig = {
-  from: 'hi@zhangbaolin.cn',
+  from: 'hi@xlin.dev',
   baseUrl:
     process.env.VERCEL_ENV === 'production'
-      ? `https://zhangbaolin.cn`
+      ? `https://xlin.dev`
       : 'http://localhost:3000',
 }
