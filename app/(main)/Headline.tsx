@@ -62,9 +62,10 @@ export function Headline() {
           duration: 0.3,
         }}
       >
-        <Developer />，<Designer />，
-        <br />
-        <OCD />，<Founder />
+        <Developer />
+        {/* ，<Designer />， */}
+        {/* <br /> */}
+        {/* <OCD />，<Founder /> */}
       </motion.h1>
       <motion.p
         className="mt-6 text-base text-zinc-600 dark:text-zinc-400"
@@ -79,7 +80,7 @@ export function Headline() {
         }}
       >
         <Balancer>
-          热爱开发，设计，创新，享受生活，以及在未知领域中探索。
+          热爱开发，享受生活，以及在未知领域中探索。
         </Balancer>
       </motion.p>
       <motion.div
@@ -100,11 +101,6 @@ export function Headline() {
           platform="twitter"
         />
         <SocialLink
-          href="https://xlin.dev/youtube"
-          aria-label="我的 YouTube"
-          platform="youtube"
-        />
-        <SocialLink
           href="https://xlin.dev/bilibili"
           aria-label="我的 Bilibili"
           platform="bilibili"
@@ -114,14 +110,9 @@ export function Headline() {
           aria-label="我的 GitHub"
           platform="github"
         />
-        <SocialLink
-          href="https://xlin.dev/tg"
-          aria-label="我的 Telegram"
-          platform="telegram"
-        />
         <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
         <SocialLink
-          href="mailto:hi@xlin.dev"
+          href="mailto:zhangbaolin@xlin.dev"
           aria-label="我的邮箱"
           platform="mail"
         />

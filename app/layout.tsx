@@ -14,11 +14,11 @@ import { seo } from '~/lib/seo'
 export const metadata: Metadata = {
   metadataBase: seo.url,
   title: {
-    template: '%s | fielding zhang',
+    template: '%s | 张保林',
     default: seo.title,
   },
   description: seo.description,
-  keywords: 'fielding,fielding zhang,张保林,开发者',
+  keywords: '张保林,开发者',
   themeColor: [
     { media: '(prefers-color-scheme: dark)', color: '#000212' },
     { media: '(prefers-color-scheme: light)', color: '#fafafa' },
@@ -38,17 +38,17 @@ export const metadata: Metadata = {
   openGraph: {
     title: {
       default: seo.title,
-      template: '%s | fielding zhang',
+      template: '%s | 张保林',
     },
     description: seo.description,
-    siteName: 'fielding zhang',
+    siteName: '张保林',
     locale: 'zh_CN',
     type: 'website',
     url: 'https://xlin.dev',
   },
   twitter: {
-    site: '@thefieldingzhang',
-    creator: '@thefieldingzhang',
+    site: '@fielding_zhang',
+    creator: '@fielding_zhang',
     card: 'summary_large_image',
     title: seo.title,
     description: seo.description,

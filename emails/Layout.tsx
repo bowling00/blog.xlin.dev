@@ -39,7 +39,7 @@ export default function Layout({
                 src={`${emailConfig.baseUrl}/icon.png`}
                 width="24"
                 height="24"
-                alt="fielding"
+                alt="张保林"
                 className="mx-auto my-0"
               />
               <Text className="text-center">
@@ -47,7 +47,7 @@ export default function Layout({
                   href="https://xlin.dev"
                   className="text-zinc-700 underline"
                 >
-                  <strong>fielding</strong>
+                  <strong>张保林</strong>
                 </Link>
                 <br />
                 开发者
@@ -58,13 +58,6 @@ export default function Layout({
                   className="text-xs text-zinc-600 underline"
                 >
                   Twitter
-                </Link>{' '}
-                |&nbsp;
-                <Link
-                  href="https://xlin.dev/youtube"
-                  className="text-xs text-zinc-600 underline"
-                >
-                  YouTube
                 </Link>{' '}
                 |&nbsp;
                 <Link

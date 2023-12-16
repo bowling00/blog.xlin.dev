@@ -2,7 +2,7 @@ import Image, { type StaticImageData } from 'next/image'
 import React from 'react'
 
 import { BriefcaseIcon } from '~/assets'
-import zolplayLogo from '~/assets/company/zolplay.png'
+import jsdesignLogo from '~/assets/company/jsdesign.png'
 
 type Resume = {
   company: string
@@ -15,7 +15,7 @@ const resume: Resume[] = [
   {
     company: '即时设计',
     title: '前端开发',
-    logo: zolplayLogo,
+    logo: jsdesignLogo,
     start: '2022',
     end: {
       label: '至今',

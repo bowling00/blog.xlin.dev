@@ -9,7 +9,7 @@ const NewReplyCommentEmail = ({
   postLink = 'https://xlin.dev',
   postTitle = '测试文章 Lorem ipsum dolor sit amet, consectetur adipisicing elit',
   postImageUrl = 'https://cn.zolplay.com/api/og?title=测试文章',
-  userFirstName = 'fielding',
+  userFirstName = '张保林',
   userLastName = 'zhang',
   userImageUrl = 'https://xlin.dev/icon.png',
   commentContent = '*测试评论*\n- Wow wtf\n- Cool',
