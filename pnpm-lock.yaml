@@ -1,9 +1,5 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 dependencies:
   '@clerk/nextjs':
     specifier: ^4.21.10
@@ -110,6 +106,9 @@ dependencies:
   '@vercel/edge-config':
     specifier: ^0.2.1
     version: 0.2.1
+  '@vercel/speed-insights':
+    specifier: ^1.0.2
+    version: 1.0.2
   '@zolplay/react':
     specifier: ^0.5.1
     version: 0.5.1(@types/react-dom@18.2.6)(@types/react@18.2.14)(next@13.4.7)(react-dom@18.2.0)(react@18.2.0)
@@ -4872,6 +4871,11 @@ packages:
       path-to-regexp: 6.1.0
     optionalDependencies:
       ajv: 6.12.6
+    dev: false
+
+  /@vercel/speed-insights@1.0.2:
+    resolution: {integrity: sha512-y5HWeB6RmlyVYxJAMrjiDEz8qAIy2cit0fhBq+MD78WaUwQvuBnQlX4+5MuwVTWi46bV3klaRMq83u9zUy1KOg==}
+    requiresBuild: true
     dev: false
 
   /@vercel/stega@0.0.5:
@@ -13278,3 +13282,7 @@ packages:
   /zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
     dev: false
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
